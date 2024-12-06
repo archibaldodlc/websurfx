@@ -5,7 +5,7 @@ services:
     image: websurfx:latest
     build: .
     ports:
-      - 8080:8080
+      - 8083:8080
     # Uncomment the following lines if you are using the `hybrid` or `redis` caching feature.
     # depends_on:
     #   - redis
